@@ -1,0 +1,39 @@
+.app {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  text-align: left;
+}
+
+.card {
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.card label {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.note {
+  white-space: pre-wrap;
+  max-height: 400px;
+  overflow-y: auto;
+  background: rgba(127, 127, 127, 0.1);
+  padding: 0.75rem;
+  border-radius: 6px;
+}
+
+.quiz .answer {
+  font-weight: bold;
+}
+
+.status {
+  color: #888;
+}
+
+.error {
+  color: #e05252;
+}

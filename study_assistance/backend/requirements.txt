@@ -1,0 +1,13 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+python-pptx==1.0.2
+pydantic==2.10.4
+pydantic-settings==2.7.1
+Pillow==11.1.0
+
+# VLM inference (Qwen2-VL-2B-Instruct)
+torch==2.5.1
+transformers==4.47.1
+accelerate==1.2.1
+qwen-vl-utils==0.0.8

@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# backend runtime data
+backend/storage/uploads/*
+backend/storage/outputs/*
+!backend/storage/uploads/.gitkeep
+!backend/storage/outputs/.gitkeep
+.env
+
+# model caches
+.cache/
+*.safetensors
+
+# Node / frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# OS
+.DS_Store
+Thumbs.db
